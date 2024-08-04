@@ -1,0 +1,10 @@
+my_string = input('Что ты любишь делать?: ')
+print("Отлично, я тоже люблю, " , my_string )
+print("Что ты любишь делать?".upper())
+print("Что ты любишь делать?".lower())
+print('Что ты любишь делать?'.replace(' ','' ))
+a = 'Что ты любишь делать?'
+print(a[0])
+print(a[-1])
+my_string = "Что ты любишь делать?"
+print (len(my_string))
