@@ -1,12 +1,21 @@
-second = int(input('Введите 1 число: '))
-first = int(input('Введите 3 число: '))
-third = int(input('Введите 3 число: '))
-if first == second == third:
-    print(3)
-elif first == second or second == third or first==third:
-    print(2)
-else:
-    print(0)
+def get_matrix(n, m, value):
+    matrix = []
+    for i in range(n):
+        matrix.append([])
+        for k in range(m):
+            matrix[i].append(value)
+    return matrix
+result1 = get_matrix(2, 2, 10)
+result2 = get_matrix(3, 5, 42)
+result3 = get_matrix(4, 2, 13)
+print(result1)
+print(result2)
+print(result3)
+
+
+
+
+
 
 
 
