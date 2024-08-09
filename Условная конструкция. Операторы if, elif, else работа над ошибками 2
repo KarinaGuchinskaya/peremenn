@@ -1,0 +1,14 @@
+second = int(input('Введите 1 число: '))
+first = int(input('Введите 3 число: '))
+third = int(input('Введите 3 число: '))
+if first == second == third:
+    print(3)
+elif first == second or second == third or first==third:
+    print(2)
+else:
+    print(0)
+
+
+
+
+
